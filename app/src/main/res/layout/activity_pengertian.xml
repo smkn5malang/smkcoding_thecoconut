@@ -4,24 +4,33 @@
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-    <LinearLayout
+    <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
+            android:background="@drawable/isi">
+
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pengertian Pramuka"
+            android:textAlignment="center"
             android:id="@+id/pengertian1"
+            android:layout_marginHorizontal="70dp"
             android:textSize="30dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="60dp"
-            android:layout_centerInParent="true"/>
+            android:layout_marginTop="40dp"
+            android:background="@drawable/terserah"/>
+        <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/terserah"
+                android:layout_margin="20dp"
+                android:layout_below="@id/pengertian1"
+        >
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/pengertian1"
+            android:layout_centerInParent="true"
             android:text="Apa yang dimaksud dengan pramuka? Pengertian Pramuka adalah semua anggota gerakan Pramuka Indonesia yang terdiri dari beberapa tingkatan, mulai dari Pramuka Siaga, Penggalang, Penegak, dan Pandega.
 
 Pramuka adalah singkatan dari Praja Muda Karana, yang artinya Rakyat Muda yang Suka Berkarya. Adapun tingkatan anggota gerakan Pramuka adalah terdiri dari;
@@ -35,7 +44,8 @@ Sedangkan pengertian gerakan Pramuka Indonesia adalah suatu organisasi pendidika
 Kegiatan Kepramukaan biasanya dilakukan di alam terbuka dimana terdapat aktivitas yang menyenangkan, menarik, sehat, terarah, sesuai dengan prinsip dasar dan metode kepramukaan.
 
 Menurut KBBI, pengertian pramuka adalah organisasi untuk generasi muda yang mendidik para anggotanya dengan berbagai jenis keterampilan, disiplin, kepercayaan pada diri sendiri, saling tolong-menolong, dan lain sebagainya."
-            android:layout_marginTop="65dp"
+            android:layout_margin="20dp"
             android:textSize="20dp"/>
-    </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
 </ScrollView>

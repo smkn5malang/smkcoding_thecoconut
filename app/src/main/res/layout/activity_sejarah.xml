@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sejarah Pramuka"
-            android:id="@+id/sejarah"
-            android:textSize="30dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="60dp"
-            android:layout_centerInParent="true"/>
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/sejarah"
-            android:text="Awal Terbentuknya
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/isi">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengertian Pramuka"
+                android:textAlignment="center"
+                android:id="@+id/pengertian2"
+                android:layout_marginHorizontal="70dp"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/terserah"/>
+        <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/terserah"
+                android:layout_margin="20dp"
+                android:layout_below="@id/pengertian2"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Awal Terbentuknya
 •	Kehidupan Pribadi Baden Powell
 Selain menjadi anak periang yang cerdas, Baden Powell ternyata juga memiliki kecerdasan linguistik yang baik. Beliau ini mendasari kelahiran gerakan Pramuka melalui buku-buku karangan sendiri. Di usia produktifnya, Baden Powell telah menghasilkan sebuah buku berjudul “Aids To Scouting”. Jiwa pemburu dan intelijen yang dimiliki beliau rupanya sudah ada sejak lahir. Sehingga kecerdasan linguistiknya dimanfaatkan untuk menuliskan segala pengalaman di bidang penyelidikan di daratan Afrika dan beberapa tempat menantang lainnya.
-Nama aslinya bukan Baden Powell. Ia dilahirkan oleh orangtua yang membentuk wataknya dengan sangat baik pada tanggal 22 Februari 1857. Nama kecilnya adalah Robert Stephenson Smith. Orangtua lelakinya bernama Powell, karenanya ia menyandang nama keturunan tersebut. Ayah Baden Powell merupakan seorang Profesor Geometri di Universitas Oxford, Inggris. Takdir hiduplah yang membentuk karakter Baden Powell menjadi lebih kuat. Semenjak kanak-kanak, ayahnya telah kembali ke hadirat Tuhan dan dia hidup bersama ibu serta seorang adik perempuan.
+Nama aslinya bukan Baden Powell. Ia dilahirkan oleh orangtua yang membentuk wataknya dengan sangat baik pada tanggal 22 Februari 1857. Nama kecilnya adalah Robert Stephenson Smith. Takdir hiduplah yang membentuk karakter Baden Powell menjadi lebih kuat. Semenjak kanak-kanak, ayahnya telah kembali ke hadirat Tuhan dan dia hidup bersama ibu serta seorang adik perempuan.
 •	Baden Powell Mendirikan Scout
 Nama Pramuka (Praja Muda Karana) hanya dikenal di Indonesia. Secara internasional, gerakan ini diberi nama Scout. Gerakan ini lahir dari buku pertama Baden Powell, “Aids To Scouting.” Di dalam buku tersebut Powell menjelaskan pengalaman penyelidikannya dengan sangat baik. Berkat cara berbagi pengalamannya lewat tulisan tersebut, Baden Powell dipanggil oleh salah satu petinggi Boys Brigade. William Smyth mengajak Baden Powell untuk bekerjasama. Atas dasar penilaian pengalaman yang cukup, William menyuruh Powell melatih anak buahnya.
-Terdapat 21 orang laki-laki anggota Boys Brigade Inggris yang menjadi cikal bakal gerakan Scout di dunia. 21 orang tersebut dilatih Baden Powell agar memiliki kemampuan menyelidik yang baik. Powell membentuk karakter-karakter kepanduan dalam diri mereka selama delapan hari. Terhitung sejak tanggal 25 Juli 1907 mereka mengadakan perkemahan di sebuah pulau strategis bernama Brown Sea.
-"
-            android:layout_marginTop="65dp"
-            android:textSize="20dp"/>
-</RelativeLayout>
+Terdapat 21 orang laki-laki anggota Boys Brigade Inggris yang menjadi cikal bakal gerakan Scout di dunia. 21 orang tersebut dilatih Baden Powell agar memiliki kemampuan menyelidik yang baik. Powell membentuk karakter-karakter kepanduan dalam diri mereka selama delapan hari. Terhitung sejak tanggal 25 Juli 1907 mereka mengadakan perkemahan di sebuah pulau strategis bernama Brown Sea."
+                    android:layout_margin="20dp"
+                    android:textSize="15dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

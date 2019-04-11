@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/isi">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengertian Pramuka"
+                android:textAlignment="center"
+                android:id="@+id/pengertian2"
+                android:layout_marginHorizontal="70dp"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/terserah"/>
+        <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/terserah"
+                android:layout_margin="20dp"
+                android:layout_below="@id/pengertian2"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="
+                       DASA DARMA
+Sebagai seorang anggota pramuka diwajibkan untuk hafal dengan ikrar dasa darma. Dasa darma ini akan dibacakan dalam setiap apel atau upacara pramuka. Selain itu, dasa darma juga biasa digunakan untuk ujian dalam pramuka. Namun, apakah anda mengalami kesulitan untuk menghafal dasa darma yang tidak sedikit itu. Berikut tips dan trik mudah menghafalkannya:
+
+1. Menggunakan jembatan keledai dengan Menggunakan singkatan dari awal kalimat yaitu: Ta – Ci – Pa – Pat – Re – Ra – He – Di – Ber – Su (Taqwa, Cinta, Patriot, Patuh, Rela, Rajin, Hemat, Disiplin, Suci).
+2. Membaca dasa darma secara berulang-ulang.
+3. Mendengarkan dengan saksama pada saat pembacaan dasa darma dalam apel atau upacara dan ikut melafalkannya dalam hati.
+4. Rajin berlatih
+5. Melafalkan dasa darma dan meminta seorang teman untuk mengoreksi kesalahan.
+6. Memahami isi dari masing-masing kalimat
+
+
+                            MAKNA
+Selain menghafalkan isi dasa darma, setiap anggota pramuka harus memahami makna dari masing-masing darma. Penanaman nilai-nilai luhur dasa darma harus ada dalam jiwa anggota pramuka. Makna dasa darma tersebut berdasarkan urutannya adalah:
+
+1. Taqwa kepada Tuhan Yang Maha Esa
+Setiap anggota pramuka harus memiliki sifat taqwa kepada Tuhan, menjunjung tinggi harkat dan martabatnya sebagai makhluk Tuhan, melakukan segala perintah Tuhan dan menjauhi larangan Tuhan. Seorang anggota pramuka juga harus memiliki toleransi beragama dengan orang lain dan mempersilakan orang lain untuk beribadah sesuai dengan agama yang dianut.
+
+2. Cinta alam dan kasih sayang sesama manusia
+Setiap anggota pramuka harus memiliki sifat cinta dan kasih. Cinta dan kasih tidak hanya ditujukan pada sesama manusia tetapi juga pada makhluk hidup lain dan seluruh alam semesta. Dengan memiliki rasa cinta dan kasih maka akan mewujudkan lingkungan yang aman, nyaman, dan menyenangkan.
+
+3. Patriot yang sopan dan ksatria
+Seorang anggota pramuka harus memiliki sifat seperti seorang patriot dan ksatria. Ini berarti bahwa setiap anggota pramuka harus memiliki sopan santun sebagai cerminan diri. Mereka juga harus ikut serta dalam menjaga persatuan dan kesatuan negara Indonesia demi mewujudkan negara yang aman dan sejahtera.
+
+4. Patuh dan suka bermusyawarah
+Anggota pramuka harus memiliki sikap yang patuh dalam setiap tugas yang diberikan. Mereka tidak boleh menolak dan harus siap dalam menghadapi perintah. Dalam setiap pengambilan keputusan, seorang pramuka harus melalui proses musyawarah untuk mencapai kata mufakat.
+
+5. Rela menolong dan tabah
+Setiap anggota pramuka harus memiliki rasa kemanusiaan yang tinggi untuk menolong setiap makhluk yang membutuhkan. Selain itu dalam menghadapi segala cobaan dan musibah, seorang anggota pramuka harus tabah dan tidak mudah menyerah.
+
+6. Rajin, terampil dan gembira
+Dasa darma keenam ini menjelaskan bahwa setiap anggota pramuka harus memiliki sikap yang rajin untuk melakukan segala sesuatu. Terampil juga dibutuhkan sebagai critical thinking bagi anggota pramuka. Selain itu, setiap pelaksanaan kegiatan harus dilakukan dengan riang gembira tanpa ada yang membebaninya.
+
+7. Hemat, cermat dan bersahaja
+Setiap anggota pramuka harus memiliki sikap yang hemat. Mereka harus cermat dalam menempatkan segala sesuatu sesuai dengan fungsi dan manfaatnya dan tidak bersikap menghambur-hamburkan segala sesuatu.
+
+8. Disiplin, berani dan setia
+Dasa darma ke-8 ini menjelaskan bahwa setiap anggota pramuka harus memiliki sikap disiplin dalam melaksanakan segala sesuatu. Pramuka juga harus berani menghadapi segala tantangan dan setia menjunjung tinggi kepanduannya.
+
+9. Bertanggung jawab dan dapat dipercaya
+Pramuka harus memiliki sikap yang bertanggung jawab. Selalu dapat mempertanggungjawabkan segala perilakunya. Selain itu, anggota pramuka juga harus dapat dipercaya dan tidak pernah mengkhianati kepercayaan yang diberikan padanya.
+
+10. Suci dalam pikiran, perkataan dan perbuatan
+Dasa darma ke-10 ini mengharuskan setiap anggota pramuka memiliki pikiran, perkataan, dan perbuatan yang baik. Setiap tingkah laku mereka diharapkan dapat menjadi suri tauladan bagi masyarakat sehingga anggota pramuka harus dapat mengendalikan setiap pikiran, perkataan, dan perbuatannya masing-masing.
+
+"
+                    android:layout_margin="20dp"
+                    android:textSize="15dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -18,5 +18,13 @@ class Activity2 : AppCompatActivity() {
             startActivity(Intent(applicationContext, Sejarah::class.java))
 
         }
+        btnLambang.setOnClickListener {
+            startActivity(Intent(applicationContext, LambangActivity::class.java))
+
+        }
+        btnDasa.setOnClickListener {
+            startActivity(Intent(applicationContext, DasaActivity::class.java))
+
+        }
     }
 }

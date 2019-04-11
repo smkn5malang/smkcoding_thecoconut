@@ -1,10 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".LambangActivity">
+        android:layout_height="match_parent">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/isi">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lambang Pramuka"
+                android:textAlignment="center"
+                android:id="@+id/pengertian2"
+                android:layout_marginHorizontal="70dp"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/terserah"/>
+        <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/terserah"
+                android:layout_margin="20dp"
+                android:layout_below="@id/pengertian2"
+        >
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:src="@drawable/lambangpramuka"
+                    android:layout_margin="10dp"
+
+
+            android:id="@+id/Lambang"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@+id/Lambang"
+                    android:layout_margin="20dp"
+                    android:textSize="15dp"
+            android:text="Arti Lambang Gerakan Pramuka
+Lambang gerakan Pramuka yakni Tunas Kelapa memiliki arti sebagai berikut:
+1) Buah kelapa atau nyiur dalam keadaan tumbuh memiliki makna “cikal”
+Makna buah kelapa atau nyiur yang sedang tumbuh secara istilah memiliki arti “cikal bakal” di Indonesia yang berarti: “penduduk asli pertama Indonesia yang menurunkan generasi baru”. Jadi, buah kelapa atau nyiur dalam keadaan tumbuh tersebut memiliki persamaan makna yaitu sebagai usur utama kelangsungan hidup bangsa Indonesia.
+2) Buah Kelapa Dapat Bertahan Lama Dalam Kondisi Apapun
+Lambang buah kelapa dapat bertahan lama dalam kondisi apapun mengkiaskan bahwa anggota pramuka adalah sosok dari seorang yang rokhaniah dan memiliki jasmaniah yang kuat, ulet, sehat serta memiliki tekad yang besar dalam menghadapi segala rintangan yang menghadang dalam kehidupannya dan siap menempuh berbagai macam ujian agar dapat mengabdi unutk  tanah air tercinta dan bangsa Indonesia.
+3) Buah Kelapa atau Nyiur Bisa Tumbuh Dimana Saja
+Hal ini menandakan bahwa besarnya daya serta upaya dalam penyesuaian diri dengan lingkungan sekitarnya (kemampuan beradaptasi). Jadi Lambang pramuka ini melambangkan, bahwa setiap anggota pramuka dapat beradaptasi dalam masyarakat dimanapun dan kapanpun dia berada serta dalam situasi apapun.
+4) Buah Kelapa atau Nyiur Tumbuh Menjulang Lurus Ke Atas dan Tinggi
+Pohon kelapa adalah salah satu pohon tertinggi yang ada di Indonesia. Berdasarkan hal tersebut, lambang Pramuka memiliki arti bahwa setiap anggota pramuka memiliki atau mempunyai cita-cita yang lurus dan tinggi, yaitu cita-cita yang mulia dan jujur serta ia dapat tetap berdiri tegak dan tidak mudah diombang-ambingkan oleh apapun.
+5) Akar Kelapa atau Nyiur Tumbuh Ke Dalam Tanah dan Kuat
+Jadi lambang Pramuka ini memiliki arti, bahwa tekad dan keyakinan seriap anggota pramuka yang berpegang pada dasar-dasar dan landasan yang benar, baik, kuat dan nyata, merupakan tekad dan keyakinan yang digunakan olehnya untuk memperkuat dirinya agar dapat mencapai cita-citanya.
+6) Pohon Kelapa Adalah Jenis Pohon Yang Serbaguna Baik Dari Ujung Sampai Akarnya
+Berdasarkan hal tersebut, Lambang Pramuka memiliki arti atau makna bahwa setiap anggota pramuka merupakan seseorang yang dapat berguna dan mau membaktikan dirinya untuk kepentingan tanah air, agama, bangsa dan negara kesatuan republik Indonesia.
+
+
+
+Lambang Gerakan Pramuka mengandung arti kiasan sebagai berikut:
+1.	Buah kelapa dalam keadaan tumbuh dinamakan cikal. Ini mengandung arti Pramuka adalah inti bagi kelangsungan hidup bangsa (tunas penerus bangsa).
+2.	Buah kelapa tahan lama. Ini mengandung arti, Pramuka adalah orang yang jasmani dan rohaninya kuat dan ulet.
+3.	Kelapa dapat tumbuh di berbagai jenis tanah. Ini mengandung arti, Pramuka adalah orang yang mampu beradaptasi dalam kondisi apapun
+4.	Kelapa tumbuh menjulang tinggi. Ini mengandung arti, setiap Pramuka memiliki cita-cita yang tinggi.
+5.	Akar kelapa kuat. Mengandung arti, Pramuka berpegang pada dasar-dasar yang kuat.
+6.	Kelapa pohon yang serbaguna. Ini mengandung arti, Pramuka berguna bagi nusa, bangsa dan agama.
+"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
