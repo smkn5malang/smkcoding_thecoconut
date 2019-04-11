@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengertian Pramuka"
+            android:id="@+id/pengertian1"
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            android:layout_centerInParent="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pengertian1"
+            android:text="Apa yang dimaksud dengan pramuka? Pengertian Pramuka adalah semua anggota gerakan Pramuka Indonesia yang terdiri dari beberapa tingkatan, mulai dari Pramuka Siaga, Penggalang, Penegak, dan Pandega.
+
+Pramuka adalah singkatan dari Praja Muda Karana, yang artinya Rakyat Muda yang Suka Berkarya. Adapun tingkatan anggota gerakan Pramuka adalah terdiri dari;
+
+Siaga (usia 7-10 tahun)
+Penggalang (usia 11-15 tahun)
+Penegak (usia 16-20 tahun)
+Pandega (usia 21-25 tahun)
+Sedangkan pengertian gerakan Pramuka Indonesia adalah suatu organisasi pendidikan non formal yang menjadi wadah dalam melaksanakan pendidikan kepanduan yang dilaksanakan di Indonesia.
+
+Kegiatan Kepramukaan biasanya dilakukan di alam terbuka dimana terdapat aktivitas yang menyenangkan, menarik, sehat, terarah, sesuai dengan prinsip dasar dan metode kepramukaan.
+
+Menurut KBBI, pengertian pramuka adalah organisasi untuk generasi muda yang mendidik para anggotanya dengan berbagai jenis keterampilan, disiplin, kepercayaan pada diri sendiri, saling tolong-menolong, dan lain sebagainya."
+            android:layout_marginTop="65dp"
+            android:textSize="20dp"/>
+</RelativeLayout>
