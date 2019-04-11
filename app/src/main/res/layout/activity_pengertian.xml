@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,4 +37,5 @@ Kegiatan Kepramukaan biasanya dilakukan di alam terbuka dimana terdapat aktivita
 Menurut KBBI, pengertian pramuka adalah organisasi untuk generasi muda yang mendidik para anggotanya dengan berbagai jenis keterampilan, disiplin, kepercayaan pada diri sendiri, saling tolong-menolong, dan lain sebagainya."
             android:layout_marginTop="65dp"
             android:textSize="20dp"/>
-</RelativeLayout>
+    </LinearLayout>
+</ScrollView>
